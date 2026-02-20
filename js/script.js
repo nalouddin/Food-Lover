@@ -38,4 +38,12 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     })
 
+    //Loader
+
+    const loaderWrapper = document.querySelector('.loader-wrapper')
+
+    setTimeout(() => {
+        loaderWrapper.computedStyleMap.display = 'none'
+    }, 1000)
+
 })
